@@ -1,0 +1,27 @@
+.header {
+  grid-area: header;
+
+  display: flex;
+  flex-direction: row;
+  gap: 225px;
+  justify-content: space-between;
+
+  margin-top: 25px;
+
+  width: auto;
+  height: 60px;
+
+  &__menu-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    font-size: $font-size-lg;
+    margin: 0;
+  }
+  &__image {
+    width: 27px;
+    height: 29px;
+  }
+}

@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+
+  &__title {
+    margin: 0;
+
+    font-family: "Poppins-Light";
+    font-size: $font-size-sm;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+    width: 100%;
+  }
+}

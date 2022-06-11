@@ -1,0 +1,38 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: space-between;
+
+  margin: 80px 0px;
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  &__author {
+    margin: 0px;
+    font-family: "Poppins-Medium";
+    font-size: $font-size-xl;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 615px;
+  }
+  &__text {
+    margin: 0;
+
+    font-family: "Poppins-Regular";
+    font-size: $font-size-xs;
+    line-height: 36px;
+  }
+  &__meta {
+    color: $gray-700;
+  }
+
+}

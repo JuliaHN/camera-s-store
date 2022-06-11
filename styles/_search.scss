@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+
+  &__input {
+    padding-left: 15px;
+    width: 350px;
+    height: 60px;
+
+    background: $gray-100;
+    border: 1px solid $black;
+    border-radius: 2px 0px 0px 2px;
+
+    font-family: "Poppins-Light";
+    font-size: $font-size-md;
+  }
+  &__button {
+    width: 85px;
+    height: 60px;
+
+    background: $black;
+    border: 1px solid $black;
+  }
+}

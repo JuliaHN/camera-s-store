@@ -1,0 +1,32 @@
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__title {
+    margin: 0;
+
+    font-family: "Poppins-Light";
+    font-size: $font-size-sm;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+  &__item {
+    width: 85px;
+    height: 26px;
+
+    background: $gray-100;
+    border: 1px solid $gray-200;
+    border-radius: 28px;
+
+    text-align: center;
+    font-family: "Poppins-Light";
+    font-size: $font-size-xxs;
+    color: $black;
+  }
+}

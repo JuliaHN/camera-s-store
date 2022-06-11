@@ -1,0 +1,81 @@
+.product-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 50px;
+
+  width: auto;
+
+  &__thumbnails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  &__description {
+    max-width: 635px;
+
+    font-family: "Poppins-Regular";
+    font-size: $font-size-md;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  &__button {
+    width: 80px;
+    height: 44px;
+
+    color: $white;
+    font-family: "Poppins-Medium";
+    font-size: $font-size-md;
+    text-align: center;
+
+    background: $black;
+    border-radius: 1px;
+  }
+  &__color {
+    padding: 4px 6px;
+  }
+  &__size {
+    color: $black;
+    background: $gray-200;
+  }
+  &__quantity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__quantity_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    font-family: "Poppins-Medium";
+  }
+  &__quantity-input {
+    width: 85px;
+    height: 48px;
+
+    text-align: center;
+    font-family: "Poppins-Regular";
+    font-size: $font-size-xl;
+  }
+  &__price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    font-family: "Poppins-Medium";
+  }
+  &__price-old {
+    font-size: $font-size-xl;
+  }
+  &__price-new {
+    margin: 0;
+    font-size: $font-size-xxxl;
+  }
+}
