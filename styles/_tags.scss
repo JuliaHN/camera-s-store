@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+
   &__title {
     margin: 0;
 
@@ -28,5 +29,21 @@
     font-family: "Poppins-Light";
     font-size: $font-size-xxs;
     color: $black;
+  }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .tags {
+
+    &__list {
+      justify-content: start;
+      gap: 20px;
+    }
+    &__item {
+      width: 105px;
+      height: 46px;
+
+      font-size: $font-size-xs;
+    }
   }
 }

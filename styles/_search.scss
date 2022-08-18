@@ -1,5 +1,6 @@
 .search {
   display: flex;
+  order: 0;
 
   &__input {
     padding-left: 15px;
@@ -19,5 +20,14 @@
 
     background: $black;
     border: 1px solid $black;
+  }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .search {
+
+    &__input {
+      width: 400px;
+    }
   }
 }

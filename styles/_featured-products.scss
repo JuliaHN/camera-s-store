@@ -1,5 +1,6 @@
 .featured-products {
   margin: 0px;
+  margin-bottom: 50px;
   width: 100%;
   gap: 55px;
 
@@ -57,5 +58,12 @@
 
     font-family: inherit;
     font-size: $font-size-md;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .featured-products {
+    &__hiden {
+      display: none;
+    }
   }
 }

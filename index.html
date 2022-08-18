@@ -15,7 +15,7 @@
         Menu
       </button>
       <div class="search">
-        <input class="search__input" type="search" value="Search...">
+        <input class="search__input" type="search" placeholder="Search...">
         <button class="search__button">
           <img src="./images/icons_search.svg" width="38" height="38" alt="Search">
         </button>
@@ -95,24 +95,28 @@
             </ul>
           </div>
         </section>
-        <section class="section">
-          <p class="title">Description</p>
-          <p class="product-details__description">Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits.</p>
-          <p class="title">Variant</p>
-          <button class="product-details__color product-details__button">Black</button>
-          <p class="title">Size</p>
-          <ul>
-            <button class="product-details__button product-details__size">S</button>
-            <button class="product-details__button product-details__size">M</button>
-          </ul>
-          <div class="product-details__quantity">
-            <div class="product-details__quantity_left">
-              <p class="title">Qty</p>
-              <input class="product-details__quantity-input" type="number" name="quantity" value="1" min="1" max="5">
-            </div>
-            <div class="product-details__price">
-              <s class="product-details__price-old">$60</s>
-              <p class="product-details__price-new">$50</p>
+        <section class="section section-description">
+          <div class="section-description__wrapper">
+            <p class="title">Description</p>
+            <p class="product-details__description">Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits. Lorem Ipsum Dolor Simut Ignus, Fraks Logik Donor Lits.</p>
+          </div>
+          <div class="section-description__wrapper">
+            <p class="title">Variant</p>
+            <button class="product-details__color product-details__button">Black</button>
+            <p class="title">Size</p>
+            <ul>
+              <button class="product-details__button product-details__size">S</button>
+              <button class="product-details__button product-details__size">M</button>
+            </ul>
+            <div class="product-details__quantity">
+              <div class="product-details__quantity_left">
+                <p class="title">Qty</p>
+                <input class="product-details__quantity-input" type="number" name="quantity" value="1" min="1" max="5">
+              </div>
+              <div class="product-details__price">
+                <s class="product-details__price-old">$60</s>
+                <p class="product-details__price-new">$50</p>
+              </div>
             </div>
           </div>
         </section>
@@ -219,7 +223,7 @@
                 <button class="buttons_secondary featured-products__link">View product</button>
               </a>
             </li>
-            <li>
+            <li class="featured-products__hiden">
               <a class="featured-products__item" href="#">
                 <img class="featured-products__image"src="./images/feature_product_4.jpg" alt="Nikon 60F">
                 <p class="featured-products__name">Nikon 60F</p>

@@ -17,11 +17,23 @@
     align-items: center;
     gap: 20px;
 
+    width: auto;
+
     font-size: $font-size-lg;
     margin: 0;
   }
   &__image {
     width: 27px;
     height: 29px;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .header {
+    gap: 50px;
+
+    &__menu-button {
+      gap: 15px;
+      width: max-content;
+    }
   }
 }
