@@ -79,7 +79,7 @@
     font-size: $font-size-xxxl;
   }
 }
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+@media only screen and (max-device-width : 1366px) {
   .product-details {
     flex-wrap: wrap;
 
@@ -88,7 +88,7 @@
       gap: 20px;
     }
     &__image_primary {
-      width: 824px;
+      width: 100%;
       height: auto;
     }
     &__image_secondary {

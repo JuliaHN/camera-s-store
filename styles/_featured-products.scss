@@ -60,10 +60,27 @@
     font-size: $font-size-md;
   }
 }
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+@media only screen and (max-device-width : 1366px) {
   .featured-products {
+    &__carousel {
+      gap: 120px;
+    }
+    &__list {
+      justify-content: center;
+      gap: 120px;
+    }
     &__hiden {
       display: none;
+    }
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .featured-products {
+    &__carousel {
+      gap: 60px;
+    }
+    &__list {
+      gap: 60px;
     }
   }
 }
