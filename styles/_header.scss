@@ -27,13 +27,21 @@
     height: 29px;
   }
 }
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1376px) {
   .header {
-    gap: 50px;
+    gap: 40px;
 
     &__menu-button {
       gap: 15px;
-      width: max-content;
+    }
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 414px){
+  .header {
+    gap: 10px;
+
+    &__menu-button_hidden {
+      display: none;
     }
   }
 }

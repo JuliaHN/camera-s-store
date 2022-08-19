@@ -23,15 +23,7 @@
   }
 }
 
-@media only screen and (max-device-width : 1366px) {
-  .search {
-
-    &__input {
-      width: 400px;
-    }
-  }
-}
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (max-width : 1376px) {
   .search {
 
     &__input {
@@ -39,7 +31,7 @@
     }
   }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (max-width : 768px) {
   .search {
     display: none;
   }

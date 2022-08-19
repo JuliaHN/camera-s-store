@@ -32,7 +32,7 @@
   }
 }
 
-@media only screen and (max-device-width : 1366px) {
+@media only screen and (max-width : 1376px) {
   .tags {
 
     &__list {
@@ -47,7 +47,7 @@
     }
   }
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (min-width : 414px) and (max-width : 768px) {
   .tags {
 
     &__list {
