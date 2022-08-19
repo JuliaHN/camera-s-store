@@ -101,3 +101,21 @@
     }
   }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .product-details {
+    gap: 30px;
+
+    &__thumbnails {
+      overflow: scroll;
+      gap: 10px;
+    }
+    &__image_secondary {
+      width: 75px;
+      height: 67px;
+    }
+    &__description {
+      font-size: $font-size-xs;
+      line-height: 36px;
+    }
+  }
+}

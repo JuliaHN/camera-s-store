@@ -22,3 +22,12 @@
     background: $black;
   }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .pagination {
+    width: max-content;
+    align-content: center;
+    &__button_hidden {
+      display: none;
+    }
+  }
+}

@@ -84,3 +84,37 @@
     }
   }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .featured-products {
+    gap: 30px;
+
+    &__carousel {
+      gap: 5px;
+    }
+    &__button {
+      padding: 0;
+    }
+    &__list {
+      justify-content: start;
+      overflow: auto;
+
+      gap: 10px;
+    }
+    &__name {
+      font-size: $font-size-md;
+    }
+    &__price {
+      flex-direction: column;
+      font-size: $font-size-xs;
+    }
+    &__link {
+      font-size: $font-size-xs;
+    }
+    &__item {
+      justify-content: start;
+    }
+    &__hiden {
+      display: flex;
+    }
+  }
+}

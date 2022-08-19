@@ -28,8 +28,13 @@
     background: $black;
   }
 }
-@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+@media only screen and (max-device-width : 1366px) {
   .tabs {
     margin-top: 60px;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .tabs {
+    font-size: $font-size-md;
   }
 }
