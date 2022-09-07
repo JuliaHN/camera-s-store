@@ -3,7 +3,7 @@
 
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
 
   font-family: "Poppins-Medium";
@@ -22,6 +22,11 @@
     color: $black;
     background: $white;
     border: 1px solid $black;
+    transition: all 0.3s ease-out;
+  }
+  &__item:hover {
+    opacity: 50%;
+    transition: all 0.3s ease-in;
   }
   &__item_active {
     color: $white;
@@ -33,17 +38,15 @@
     margin-top: 60px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 500px) {
   .tabs {
-    justify-content: center;
-
+    float: none;
+    display: block;
     width: 100%;
-
-    font-size: $font-size-md;
     &__item {
-      max-width: 708px;
-      min-width: 220px;
-      width: auto;
+      margin-bottom: 30px;
+
+      width: 100%;
     }
   }
 }

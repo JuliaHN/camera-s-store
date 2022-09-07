@@ -15,6 +15,12 @@
 
     background: $white;
     border: 1px solid $gray-300;
+
+    transition: all 0.3s ease-out;
+  }
+  &__button:hover {
+    opacity: 50%;
+    transition: all 0.3s ease-in;
   }
   &__button_primary {
     color: $white;

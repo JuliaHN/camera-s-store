@@ -12,7 +12,6 @@
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-
   &__description {
     max-width: 635px;
 
@@ -33,13 +32,29 @@
 
     background: $black;
     border-radius: 1px;
+
+    transition: all 0.3s ease-out;
+    &:hover {
+      opacity: 85%;
+      transition: all 0.3s ease-in;
+    }
   }
+
   &__color {
     padding: 4px 6px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
   &__size {
     color: $black;
     background: $gray-200;
+
+    &:hover {
+      opacity: 75%;
+    }
   }
   &__quantity {
     display: flex;
@@ -97,7 +112,8 @@
       height: 97px;
     }
     &__description {
-      max-width: 400px;
+      max-width: 1261px;
+      width: 100%;
       margin-right: 0;
     }
   }
